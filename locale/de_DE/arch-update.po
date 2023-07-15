@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-09 23:48+0200\n"
-"PO-Revision-Date: 2023-07-15 14:10+0200\n"
+"PO-Revision-Date: 2023-07-15 18:03+0200\n"
 "Last-Translator: Onno Giesmann <nutzer3105@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -66,10 +66,8 @@ msgstr[0] "Es gibt %d ausstehende Aktualisierung"
 msgstr[1] "Es gibt %d ausstehende Aktualisierungen"
 
 #: extension.js:397
-msgid ""
-"Note : you have to install pacman-contrib to use the 'checkupdates' script."
-msgstr ""
-"Hinweis : Zuerst pacman-contrib installieren, um 'checkupdates' zu benutzen."
+msgid "Note : you have to install pacman-contrib to use the 'checkupdates' script."
+msgstr "Hinweis : Zuerst pacman-contrib installieren, um 'checkupdates' zu benutzen."
 
 #: extension.js:399
 msgid "Error"
@@ -78,6 +76,26 @@ msgstr "Fehler"
 #: extension.js:404
 msgid "Up to date :)"
 msgstr "Auf dem Laufenden :)"
+
+#: prefs.js:44
+msgid "<!-- name -->%s"
+msgstr "%s"
+
+#: prefs.js:45
+msgid "<!-- version -->%s"
+msgstr "%s"
+
+#: prefs.js:46
+msgid "<!-- description -->%s"
+msgstr ""
+"Anzeige von Arch Linux Aktualisierungen in GNOME Shell\n"
+"<b>Hinweis: <tt>pacman-contrib</tt> muss installiert sein</b>\n"
+"Befehle für AUR oder andere Systeme in Optimierungen konfigurierbar, siehe <a href=\"https://github.com/RaphaelRochet/arch-update/"
+"wiki\">Wiki</a>"
+
+#: prefs.js:47
+msgid "<!-- url --><a href=\"%1$s\">%1$s</a>"
+msgstr "<a href=\"%1$s\">%1$s</a>"
 
 #: prefs.xml:44
 msgid "Basic settings"
@@ -132,12 +150,8 @@ msgid "Menu"
 msgstr "Menü"
 
 #: prefs.xml:160
-msgid ""
-"Auto-expand updates list if updates count is less than this number (0 to "
-"disable)"
-msgstr ""
-"Liste mit Aktualisierungen automatisch ausklappen, wenn Anzahl der "
-"Aktualisierungen geringer als diese Zahl ist (0 zum Deaktivieren)"
+msgid "Auto-expand updates list if updates count is less than this number (0 to disable)"
+msgstr "Liste mit Aktualisierungen automatisch ausklappen, wenn Anzahl der Aktualisierungen geringer als diese Zahl ist (0 zum Deaktivieren)"
 
 #: prefs.xml:172 prefs.xml:230
 msgid "Strip out versions numbers"
@@ -180,9 +194,7 @@ msgid "Command to check for package updates"
 msgstr "Befehl zum Prüfen auf Aktualisierungen"
 
 #: prefs.xml:262
-msgid ""
-"Disable output parsing, count every line as an update. This is the old "
-"behavior."
+msgid "Disable output parsing, count every line as an update. This is the old behavior."
 msgstr "Keine Erkennung von Versionen im Menü (früheres Verhalten)"
 
 #: prefs.xml:276
