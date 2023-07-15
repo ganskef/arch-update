@@ -4,21 +4,22 @@
 # Translators:
 # Karol Babioch <karol@babioch.de>, 2016
 # Onno Giesmann <nutzer3105@gmail.com>, 2020-2021
+# Frank Ganske <frank.ganske@web.de>, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-09 23:48+0200\n"
-"PO-Revision-Date: 2021-04-09 07:38+0200\n"
+"PO-Revision-Date: 2023-07-15 14:10+0200\n"
 "Last-Translator: Onno Giesmann <nutzer3105@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: extension.js:113
 msgid "Settings"
@@ -80,7 +81,7 @@ msgstr "Auf dem Laufenden :)"
 
 #: prefs.xml:44
 msgid "Basic settings"
-msgstr "Standardeinstellungen"
+msgstr "Einstellungen"
 
 #: prefs.xml:49
 msgid "Checking for updates"
@@ -96,7 +97,7 @@ msgstr "Intervall zwischen Überprüfungen (Minuten)"
 
 #: prefs.xml:79
 msgid "Indicator"
-msgstr "Anzeige"
+msgstr "Anzeige Symbol"
 
 #: prefs.xml:82
 msgid "Always visible"
@@ -108,7 +109,7 @@ msgstr "Eingebaute Symbole verwenden"
 
 #: prefs.xml:106
 msgid "Show updates count on indicator"
-msgstr "Zeige Anzahl an Aktualisierungen"
+msgstr "Symbol mit Anzahl"
 
 #: prefs.xml:118
 msgid "Position in Panel"
@@ -128,7 +129,7 @@ msgstr "Rechts"
 
 #: prefs.xml:157
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: prefs.xml:160
 msgid ""
@@ -148,15 +149,15 @@ msgstr "Benachrichtigung"
 
 #: prefs.xml:190
 msgid "Send a notification when new updates are available"
-msgstr "Sende eine Benachrichtigung, sobald Aktualisierungen verfügbar sind"
+msgstr "Benachrichtigung bei verfügbaren Aktualisierungen"
 
 #: prefs.xml:202
 msgid "Use transient notifications (auto dismiss)"
-msgstr "Verwende kurzlebige Benachrichtigung (automatische Ausblendung)"
+msgstr "Kurzlebige Benachrichtigungen (automatisch ausblenden)"
 
 #: prefs.xml:214
 msgid "How much information to show on notifications"
-msgstr "Informationen, die in der Benachrichtigung angezeigt werden"
+msgstr "Informationen in Benachrichtigungen"
 
 #: prefs.xml:220
 msgid "Count only"
@@ -172,40 +173,37 @@ msgstr "Namen aller Aktualisierungen"
 
 #: prefs.xml:245
 msgid "Advanced settings"
-msgstr "Erweiterte Einstellungen"
+msgstr "Optimierungen"
 
 #: prefs.xml:250
 msgid "Command to check for package updates"
-msgstr "Befehl, um auf Aktualisierungen zu prüfen"
+msgstr "Befehl zum Prüfen auf Aktualisierungen"
 
 #: prefs.xml:262
 msgid ""
 "Disable output parsing, count every line as an update. This is the old "
 "behavior."
-msgstr ""
+msgstr "Keine Erkennung von Versionen im Menü (früheres Verhalten)"
 
 #: prefs.xml:276
 msgid "Command to update packages"
-msgstr "Befehl, um Pakete zu aktualisieren"
+msgstr "Befehl zum Aktualisieren der Pakete"
 
 #: prefs.xml:291
-msgid "Pacman local directory path - To detect when new packages are installed"
-msgstr ""
-"Lokales Pacman-Verzeichnis – Wird benötigt, um festzustellen, dass neue "
-"Pakete installiert werden"
+msgid "Directory of installed packages to confirm updates"
+msgstr "Verzeichnis installierter Pakete zum Bestätigen der Aktualisierungen"
 
 #: prefs.xml:306
 msgid "Command to open package manager (optional)"
 msgstr "Befehl zum Öffnen der Paketverwaltung (optional)"
 
 #: prefs.xml:321
-#, fuzzy
-msgid "Command to show info for a package (optional)"
-msgstr "Befehl zum Öffnen der Paketverwaltung (optional)"
+msgid "Command to show info for package, repo and arch (optional)"
+msgstr "Befehl für Informationen zu Paket, Repo und Arch (optional)"
 
 #: prefs.xml:336
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #~ msgid "<b>Timers</b>"
 #~ msgstr "<b>Timer</b>"
